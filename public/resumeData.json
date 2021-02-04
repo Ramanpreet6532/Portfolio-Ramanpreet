@@ -1,0 +1,104 @@
+{
+  "main": {
+    "name": "Ramanpreet",
+    "occupation": "Frontend React Developer",
+    "description": "React reacting with my life",
+    "image": "profilepic1.jpg",
+    "bio": "Hi there! I am Ramanpreet Kaur -- A React JS Developer. As for my experience, I have been working as a React JS developer and providing value  by bringing my skills and unique visioning ability to the company. I have been creating unique interfaces for users to interact with websites smoothly. I am a diligent, self motivator and a keen learner. I always love to learn new technologies to stay updated with this tech era.",
+    "contactmessage": "Get in touch with me",
+    "email": "preetraman@gmail.com",
+    "phone": "+91 9056431567",
+    "address": {
+      "street": "Jalandhar",
+      "city": "Punjab",
+      "state": "India",
+      "zip": "144001"
+    },
+    "resumedownload": "https://docs.google.com/document/d/1PqK9VBJlpAzjAaOSg7Sx9Wvzv_9HwHXkWoDwcMdDvwM/edit?usp=drivesdk",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/Ramanpreet.Ramz/",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/ramanpreet-kaur-0b6208163",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/preetraman6532/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/Ramanpreet6532",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Programming Language Proficiency",
+    "education": [
+      {
+        "school": "UIETH, Panjab University",
+        "degree": "Bachelor's Degree, ECE",
+        "graduated": "July 2020",
+        "description": "Graduated with First Class"
+      }
+    ],
+    "work": [
+      {
+        "company": "Platerate",
+        "title": "Junior React Dev",
+        "years": "Dec 2020 - Present",
+        "description": "Building unique user interfaces with React JS"
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "85%"
+      },
+      {
+        "name": "C",
+        "level": "75%"
+      },
+      {
+        "name": "Git",
+        "level": "70%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "70%"
+      },
+      {
+        "name": "Web Development",
+        "level": "80%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Netflix Clone (React JS)",
+        "category": "",
+        "image": "NetflixLogo.png",
+        "url": "https://netflix-clone-d19da.web.app/"
+      },
+      {
+        "title": "Covid-19 Tracker (React JS)",
+        "category": "",
+        "image": "covidLogo.png",
+        "url": "https://covid-19-tracker-9c61f.web.app"
+      },
+      {
+        "title": "Amazon Clone (React JS)",
+        "category": "",
+        "image": "amazonLogo.jpg",
+        "url": "https://clone-e4a23.web.app"
+      }
+    ]
+  }
+}

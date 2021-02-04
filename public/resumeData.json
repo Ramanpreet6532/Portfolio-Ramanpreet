@@ -6,7 +6,7 @@
     "image": "profilepic1.jpg",
     "bio": "Hi there! I am Ramanpreet Kaur -- A React JS Developer. As for my experience, I have been working as a React JS developer and providing value  by bringing my skills and unique visioning ability to the company. I have been creating unique interfaces for users to interact with websites smoothly. I am a diligent, self motivator and a keen learner. I always love to learn new technologies to stay updated with this tech era.",
     "contactmessage": "Get in touch with me",
-    "email": "preetraman@gmail.com",
+    "email": "preetraman6532@gmail.com",
     "phone": "+91 9056431567",
     "address": {
       "street": "Jalandhar",
@@ -14,7 +14,7 @@
       "state": "India",
       "zip": "144001"
     },
-    "resumedownload": "https://docs.google.com/document/d/1PqK9VBJlpAzjAaOSg7Sx9Wvzv_9HwHXkWoDwcMdDvwM/edit?usp=drivesdk",
+    "resumedownload": "https://docs.google.com/document/d/1PqK9VBJlpAzjAaOSg7Sx9Wvzv_9HwHXkWoDwcMdDvwM/?usp=drivesdk",
     "social": [
       {
         "name": "facebook",
@@ -51,9 +51,21 @@
     "work": [
       {
         "company": "Platerate",
-        "title": "Junior React Dev",
+        "title": "Junior React Developer",
         "years": "Dec 2020 - Present",
         "description": "Building unique user interfaces with React JS"
+      },
+      {
+        "company": "Nextpage IT Solution",
+        "title": "Junior React Developer",
+        "years": "Aug 2020 - Oct 2020",
+        "description": "Built unique user interfaces for client side and integrated API's for connecting with the backend"
+      },
+      {
+        "company": "Hathlogic",
+        "title": "Frontend React Developer Intern",
+        "years": "jan 2020 - July 2020",
+        "description": "Implemented frontend for users to interact with websites and apps smoothly."
       }
     ],
     "skills": [

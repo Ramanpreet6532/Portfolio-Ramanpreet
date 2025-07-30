@@ -27,13 +27,16 @@ const Resume = ({ data }) => {
         </div>
       );
     });
-    var skills = data.skills.map(function (skills) {
+    var skills = data.skills.map(function (skills, index) {
       var className = "bar-expand " + skills.name.toLowerCase();
       return (
-        <li key={skills.name}>
-          <span style={{ width: skills.level }} className={className}></span>
-          <em>{skills.name}</em>
-        </li>
+        // <li key={skills.name}>
+        //   <span style={{ width: skills.level }} className={className}></span>
+        //   <em>{skills.name}</em>
+        <span className="skill-badge fade-in" key={index} style={{ animationDelay: `${index * 0.1}s` }}>
+          {skills.name}
+        </span>
+        // </li>
       );
     });
   }
@@ -64,7 +67,7 @@ const Resume = ({ data }) => {
         <div className="nine columns main-col">{work}</div>
       </div>
 
-      <div className="row skill">
+      {/* <div className="row skill">
         <div className="three columns header-col">
           <h1>
             <span>Skills</span>
@@ -76,6 +79,20 @@ const Resume = ({ data }) => {
 
           <div className="bars">
             <ul className="skills">{skills}</ul>
+          </div>
+        </div>
+      </div> */}
+
+      <div className="row skill">
+        <div className="three columns header-col">
+          <h1>
+            <span>Skills</span>
+          </h1>
+        </div>
+
+        <div className="nine columns main-col">
+          <div className="skill-tags">
+            {skills}
           </div>
         </div>
       </div>

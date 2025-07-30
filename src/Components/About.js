@@ -17,7 +17,7 @@ const About = ({ data }) => {
   return (
     <section id="about">
       <div className="row">
-        <div className="three columns">
+        <div className="three columns profile">
           <img
             className="profile-pic"
             src={profilepic}
@@ -34,12 +34,12 @@ const About = ({ data }) => {
               <p className="address">
                 <span>{name}</span>
                 <br />
-                <span>
+                {/* <span>
                   {street}
                   <br />
                   {city} {state}, {zip}
-                </span>
-                <br />
+                </span> */}
+                
                 <span>{phone}</span>
                 <br />
                 <span>{email}</span>
@@ -47,7 +47,7 @@ const About = ({ data }) => {
             </div>
             <div className="columns download">
               <p>
-                <a href={resumeDownload} className="button">
+                <a href={resumeDownload} download className="button">
                   <i className="fa fa-download"></i>Download Resume
                 </a>
               </p>

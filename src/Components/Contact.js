@@ -17,15 +17,21 @@ const Contact = ({ data }) => {
     var contactMessage = data.contactmessage;
   }
 
-  const submitForm = () => {
-    console.log(contactEmail)
-    window.open(
+  const submitForm = (e) => {
+    console.log(contactEmail, subject, email)
+    // e.preventDefault()
+    // window.open(
+    //   `mailto:${contactEmail}?subject=${encodeURIComponent(
+    //     subject
+    //   )}&body=${encodeURIComponent(name)} (${encodeURIComponent(
+    //     email
+    //   )}): ${encodeURIComponent(message)}`
+    // )
+     window.open(
       `mailto:${contactEmail}?subject=${encodeURIComponent(
         subject
-      )}&body=${encodeURIComponent(name)} (${encodeURIComponent(
-        email
-      )}): ${encodeURIComponent(message)}`
-    );
+      )}&body= ${encodeURIComponent(message)}`
+    )
   };
 
   return (
@@ -104,7 +110,7 @@ const Contact = ({ data }) => {
               </div>
 
               <div>
-                <button onClick={submitForm} type="submit" className="submit">
+                <button onClick={(e) => submitForm(e)} type="submit" className="submit">
                   Submit
                 </button>
               </div>
@@ -126,8 +132,6 @@ const Contact = ({ data }) => {
               <br />
               {contactEmail}
               <br />
-              <br />
-              {street} <br />
               {city}, {state} {zip}
               <br />
               <span>{phone}</span>
